@@ -22,7 +22,6 @@ class CustomButton extends StatelessWidget {
                       children: [
                         Container(
                           height: 363,
-                          width: 309,
                           padding: const EdgeInsets.all(20),
                           child: Column(
                             children: [
@@ -36,7 +35,6 @@ class CustomButton extends StatelessWidget {
                               Image.asset(
                                 "lib/assets/images/dialogbox.png",
                                 height: 102,
-                                width: 85,
                               ),
                               const SizedBox(height: 20,),
                               SizedBox(
